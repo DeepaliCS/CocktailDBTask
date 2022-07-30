@@ -33,6 +33,16 @@ def update_list_for_ingredients(essential_cocktail_detail):
         cocktail_detail.append(ingredients_dict)
     return essential_cocktail_detail
 
+def match_ingredients_to_cocktails(user_ingredients, updated_list):
+    """
+    Collect the user's input (ingredients) to find which cocktail(s)
+    they can make.
+    """
+    user_ingredients = ["gin, soda water, lime"]
+    return [cocktail_detail[1] for cocktail_detail in updated_list if user_ingredients == cocktail_detail[2]["ingredients"]]
+
+
+    
 
 # def main():
 #     print("***********")
@@ -40,9 +50,12 @@ def update_list_for_ingredients(essential_cocktail_detail):
 #     this = get_list_of_cocktail_name_and_ids()
 #     that = update_list_for_ingredients(this)
 
-#     print(this)
-#     print("---")
-#     print(that)
+#     # print(this)
+#     # print("---")
+#     # print(that)
+
+#     those = match_ingredients_to_cocktails("", that)
+#     print(those)
 
 
 #     print("***********")
