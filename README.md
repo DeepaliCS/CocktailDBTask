@@ -32,8 +32,11 @@ The following tools were used in this project:
 ## :checkered_flag: Starting ##
 
 ```bash
+
+(Mac & Linux)
+
 # Clone this project
-$ git clone https://github.com/DeepaliCS/project
+$ git clone https://github.com/DeepaliCS/CocktailDBTask.git
 
 # Navigate to folder
 $ cd CocktailDBTask

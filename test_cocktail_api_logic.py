@@ -43,15 +43,15 @@ class TestCocktailDataLogic(unittest.TestCase):
         self.assertIsInstance(result[2], dict)
 
     
-    # def test_matches_are_found(self):
-    #     """
-    #     Ensure that the cocktail search by ingredients process
-    #     below, can return cocktails.
-    #     """
+    def test_matches_are_found(self):
+        """
+        Ensure that the cocktail search by ingredients process
+        below, can return cocktails.
+        """
 
-    #     updated_list = self.UPDATED_LIST
-    #     result = match_ingredients_to_cocktails(["Apple Juice, Carrot"], updated_list)
-    #     self.assertEqual(result[0], "Apple Karate")
+        updated_list = self.UPDATED_LIST
+        result = match_ingredients_to_cocktails(["apple Juice, carrot"], updated_list)
+        self.assertEqual(result[0], "Apple Karate")
 
 if __name__ == '__main__':
     unittest.main()
