@@ -17,20 +17,3 @@ def get_ingredients(id_lookup=11007):
     Use 11007 if no value is passed as default. (For tests)
     """
     return requests.get(f'{COCKTAILDB_URL}/lookup.php?i={id_lookup}')
-
-
-def main():
-    print("***********")
-
-    this = get_cocktails()
-    that = get_ingredients()
-
-    print(this.content)
-    print("===")
-    print(that.content)
-
-    print("***********")
-
-
-if __name__ == '__main__':
-    main()
