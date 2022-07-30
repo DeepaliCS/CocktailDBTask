@@ -34,19 +34,19 @@ def update_list_for_ingredients(essential_cocktail_detail):
     return essential_cocktail_detail
 
 
-def main():
-    print("***********")
+# def main():
+#     print("***********")
 
-    this = get_list_of_cocktail_name_and_ids()
-    that = update_list_for_ingredients(this)
+#     this = get_list_of_cocktail_name_and_ids()
+#     that = update_list_for_ingredients(this)
 
-    print(this)
-    print("---")
-    print(that)
-
-
-    print("***********")
+#     print(this)
+#     print("---")
+#     print(that)
 
 
-if __name__ == '__main__':
-    main()
+#     print("***********")
+
+
+# if __name__ == '__main__':
+#     main()
