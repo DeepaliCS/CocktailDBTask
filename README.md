@@ -35,6 +35,18 @@ The following tools were used in this project:
 # Clone this project
 $ git clone https://github.com/DeepaliCS/project
 
+# Navigate to folder
+$ cd CocktailDBTask
+
+# Ensure relevant libraries are installed
+$ pip install requirements.txt
+
+# Run main.py (Main program, follow instructions from command prompt)
+$ python main.py
+
+# Run unit tests
+$ python test_cocktail_api_logic.py
+
 ```
 
 &#xa0;
